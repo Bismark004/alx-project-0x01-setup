@@ -5,7 +5,7 @@ import UserModal from "@/components/common/UserModal";
 import Header from "@/components/layout/Header";
 import { UserData } from "@/interfaces";
 
-const Users: React.FC<{ users: UserData[] }> = ({ users }) => {
+const Users: React.FC<{ users: UserData[] }> = ({ users }) => { 
   const [isModalOpen, setModalOpen] = useState(false);
   const [newUsers, setNewUsers] = useState<UserData[]>(users);
 
